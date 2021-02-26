@@ -1,0 +1,11 @@
+#container-Start{
+    display:flex;
+    justify-content: center;
+}
+#container-Start img{
+    width: 400px;
+    height: 400px;
+}
+.btn-success{
+    box-shadow: 3px 3px 6px green;
+}

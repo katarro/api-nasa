@@ -1,0 +1,22 @@
+*{
+    color: #ffff;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}

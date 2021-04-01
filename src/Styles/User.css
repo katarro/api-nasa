@@ -1,0 +1,27 @@
+table thead tr th{
+    color: black;
+}
+
+.row{
+    margin-top: 10vh;
+    
+}
+.table{
+    margin-top: 20vh;
+    background-color: black;
+    margin-bottom: 10vh;
+    border: solid white 1px;
+}
+tr:hover{
+    background-color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:430px){
+    #title{
+        display: flex;
+        margin-left: 30vh;
+    }
+}

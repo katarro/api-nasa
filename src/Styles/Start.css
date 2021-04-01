@@ -2,10 +2,39 @@
     display:flex;
     justify-content: center;
 }
+#button-Start{
+    margin-top: 5vh;
+    display:flex;
+    justify-content: center;
+
+}
 #container-Start img{
-    width: 400px;
+    width: 500px;
     height: 400px;
 }
-.btn-success{
-    box-shadow: 3px 3px 6px green;
+
+#btn{
+    margin-left: 3vh;
+    margin-top: 5vh;
+}
+@media(max-width: 586px){
+    .container{
+        margin-top: 5vh;
+    }
+    #container-Start img{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        height: 80%;
+    }
+    #button-Start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    #btn{
+        font-size:larger;
+    }
 }

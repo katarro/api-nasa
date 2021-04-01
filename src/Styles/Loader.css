@@ -1,8 +1,7 @@
 .Loader{
-  width: 200%;
+  width: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
   
 }
 @media(max-width: 384px){
@@ -16,7 +15,6 @@
     display: flex;
     width: 100px;
     height: 100px;
-    margin-left: 30px;
     
   }
   .lds-roller div {
@@ -29,8 +27,8 @@
     position: absolute;
     width: 7px;
     height: 7px;
+    background-color: white;
     border-radius: 50%;
-    background: rgb(30, 83, 114);
     margin: -4px 0 0 -4px;
   }
   .lds-roller div:nth-child(1) {

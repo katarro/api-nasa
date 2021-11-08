@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import '../Styles/Form.css';
 import { Link } from 'react-router-dom';
@@ -14,7 +14,9 @@ export default function Form() {
 					<h2>Ingresa Fecha</h2>
 					<div className="col-sm-5">
 						<label className="label">AAAA-MM-DD</label>
+						<div id="input">
 						<input
+							
 							type="text"
 							className="form-control"
 							placeholder="2001-08-09"
@@ -23,6 +25,7 @@ export default function Form() {
 							ref={register}
 							onChange={(e) => setFormData(e.target.value)}
 						/>
+						</div>
 					</div>
 				</div>
 

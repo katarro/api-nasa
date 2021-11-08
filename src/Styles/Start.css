@@ -20,6 +20,7 @@
 @media(max-width: 586px){
     .container{
         margin-top: 5vh;
+            
     }
     #container-Start img{
         display: flex;
@@ -36,5 +37,6 @@
     }
     #btn{
         font-size:larger;
+        
     }
 }

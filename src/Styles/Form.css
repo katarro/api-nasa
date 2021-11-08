@@ -20,3 +20,10 @@ h2{
     justify-content: center;
     color: #ffff;
 }
+@media(max-width: 586px){
+    #input{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+

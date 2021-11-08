@@ -1,4 +1,4 @@
-# Descripción dl proyecto
+# Descripción del proyecto
 
 
 Aplicación web, en la cual pueden conocer los asteroides cercanos a la tierra, junto con sus características.

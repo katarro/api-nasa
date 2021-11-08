@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Descripción dl proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Aplicación web, en la cual pueden conocer los asteroides cercanos a la tierra, junto con sus características.
+Además, puedes conocer las fotos reales del planeta rojo (marte), sacadas por el robot curiosity y conocer la imagen del día de la Nasa.
 
-In the project directory, you can run:
+## Scripts disponibles
+En el directorio del proyecto, puedes correr:
 
 ### `npm start`
 
